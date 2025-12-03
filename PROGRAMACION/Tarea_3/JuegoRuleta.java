@@ -17,20 +17,7 @@ public class JuegoRuleta {
 		return "Tu saldo actual es: " +  saldo;
 	}
 	
-	//__________________________  GET & SET _________________________________//
 	
-	public double getSaldo() {
-		return saldo;
-	}
-	public void setSaldo(double saldo) {
-		this.saldo = saldo;
-	}
-	public Scanner getSc() {
-		return sc;
-	}
-	public void setSc(Scanner sc) {
-		this.sc = sc;
-	}
 	//_____________________________________________________________________________________	
 	
 	public static void main(String[] args) {	
