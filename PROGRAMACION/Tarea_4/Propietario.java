@@ -21,7 +21,7 @@ public class Propietario {
 	public String toString() {
 	
 		return "Nombre: "+ nombre+"\n"+
-				"DNI: "+ dni+"\n"+
-				"Telefono: "+ telefono+"\n";
+			   "DNI: "+ dni+"\n"+
+		       "Telefono: "+ telefono+"\n";
 	}
 }
