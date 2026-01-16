@@ -17,11 +17,34 @@ public class Propietario {
 		this.dni=dni;
 		this.telefono=telefono;
 	}
+	public static boolean validarDni(String dni) {
+		 return dni.matches("\\d{8}[A-Za-z]");
+	}
+	
 	@Override	
 	public String toString() {
 	
-		return "Nombre: "+ nombre+"\n"+
-			   "DNI: "+ dni+"\n"+
-		       "Telefono: "+ telefono+"\n";
+		return "Nombre: "+ nombre+" | "+
+			   "DNI: "+ dni+" | "+
+		       "Telefono: "+ telefono;
 	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getDni() {
+		return dni;
+	}
+	public void setDni(String dni) {
+		this.dni = dni;
+	}
+	public String getTelefono() {
+		return telefono;
+	}
+	public void setTelefono(String telefono) {
+		this.telefono = telefono;
+	}
+	
 }
