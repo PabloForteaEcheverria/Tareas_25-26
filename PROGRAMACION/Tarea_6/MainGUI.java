@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 public class MainGUI extends JFrame {
 	
-	private static final String FICHERO = "Libros.txt";
+	private static final String FICHERO = "PROGRAMACION/Tarea_6/libros.txt";
 	
 	private Biblioteca biblioteca;
 	private JTable tabla;
