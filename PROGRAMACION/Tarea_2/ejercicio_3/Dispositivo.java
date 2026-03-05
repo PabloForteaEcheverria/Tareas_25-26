@@ -36,7 +36,8 @@ public void cargarDispositivo(int porcentaje) {
 		   "Tipo: "+tipo+"\n" +
 		   "Nivel de bateria: "+ bateria+"\n" +
 		   "Consumo por hora: " +consumoHora+"\n"+
-		   "Horas de usoTotal: "+ horasUso;
+		   "Horas de usoTotal: "+ horasUso+
+		   "Titular: "+titular;
 	}
 
 }

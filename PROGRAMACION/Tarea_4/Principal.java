@@ -135,7 +135,7 @@ public class Principal {
 	private static void asignarPropietario(Scanner sc, BicicletaElectrica bicicleta1, BicicletaElectrica bicicleta2) {
 		System.out.println("¿Que bicicleta quieres usar? (1 o 2)");
 		
-		int opcion=0;;
+		int opcion=0;
 		while (opcion != 1 && opcion != 2) {
 			opcion=validarNumero(sc);
 			if  (opcion != 1 && opcion != 2)
