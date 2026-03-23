@@ -10,7 +10,7 @@ public class Principal {
 	Scanner sc = new Scanner(System.in);
 	
 		Biblioteca b = new Biblioteca();
-		FicheroLibros.leerFichero("PROGRAMACION/Tarea_6/libros.txt", b);
+		FicheroLibros.leerFichero("src/Tarea_6/libros.txt", b);
 		
 	int opcion=0;
 		
