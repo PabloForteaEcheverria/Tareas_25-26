@@ -7,7 +7,7 @@ public class Principal {
 	private static AlmacenDispositivos almacen = new AlmacenDispositivos();
 
 	public static void main(String[] args) {
-
+  
 		Scanner sc = new Scanner(System.in);
 
 		int opcion = 0;
